@@ -24,3 +24,9 @@ print(iris_dataset['DESCR'][:193] + "\n...")
 print("Target names: {}".format(iris_dataset['target_names']))
 
 print("Feature names: \n{}".format(iris_dataset['feature_names']))
+
+print("Type of data: {}".format(type(iris_dataset['data'])))
+
+print("Shape of data: {}".format(iris_dataset['data'].shape))
+
+print("First five columns of data:\n{}".format(iris_dataset['data'][:5]))
