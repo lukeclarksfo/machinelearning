@@ -3,3 +3,15 @@ body
     margin: 0;
     font-family:sans-serif;
 }
+
+main
+{
+    margin: 50px;
+}
+
+pre
+{
+    background: #f7f7f7;
+    margin: 50px;
+    padding: 20px;
+}
